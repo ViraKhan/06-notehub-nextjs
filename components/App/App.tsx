@@ -7,7 +7,7 @@ import {
   useQueryClient,
   keepPreviousData,
 } from "@tanstack/react-query";
-import { fetchNotes, createNote } from "../../services/noteService";
+import { fetchNotes, createNote } from "../../lib/api";
 
 import NoteList from "../NoteList/NoteList";
 import Pagination from "../Pagination/Pagination";
