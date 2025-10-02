@@ -1,0 +1,58 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./app/notes/[id]/NoteDetails.client.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.NoteDetails_client_container___zDcY {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.NoteDetails_client_item__UbfL8 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.NoteDetails_client_header__bSLFb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.NoteDetails_client_header__bSLFb h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.NoteDetails_client_content__b2Wlb {
+  font-size: 18px;
+  line-height: 26px;
+  color: #444;
+  white-space: pre-wrap;
+}
+
+.NoteDetails_client_date__Vd3Le {
+  font-size: 14px;
+  color: #888;
+  text-align: right;
+}
+
+.NoteDetails_client_tag__kQ6Jj {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #0d6efd;
+  background-color: #e7f1ff;
+  border: 1px solid #b6d4fe;
+  border-radius: 12px;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
