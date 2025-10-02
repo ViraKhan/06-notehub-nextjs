@@ -50,7 +50,7 @@ export default function NoteForm({
         mutation.mutate(values, {
           onSuccess: () => {
             resetForm();
-            onCancel(); // закриваємо модальне вікно
+            onCancel(); // закриваємо модальне 
           },
           onSettled: () => setSubmitting(false),
         });

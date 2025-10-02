@@ -1,7 +1,10 @@
+"use client";
+
+import Link from "next/link";
 import css from "./NoteList.module.css";
-import type { Note, NoteId } from "../../types/note";
+import type { Note, NoteId } from "@/types/note";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { deleteNote } from "../../lib/api";
+import { deleteNote } from "@/lib/api";
 import { useState } from "react";
 
 interface NoteListProps {
@@ -35,8 +38,16 @@ export default function NoteList({ notes }: NoteListProps) {
           <h2 className={css.title}>{note.title}</h2>
           <p className={css.content}>{note.content}</p>
           <div className={css.footer}>
-            {}
             <span className={css.tag}>{note.tag || "No tag"}</span>
+
+            <Link
+              href={`/notes/${note.id}`}
+              className={css.link}
+              aria-label={`View details of note ${note.title}`}
+            >
+              View details
+            </Link>
+
             <button
               className={css.button}
               onClick={() => {
